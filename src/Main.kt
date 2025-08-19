@@ -1,3 +1,8 @@
+import entidades.Funcionario
+import entidades.Servico
+import enumeradores.Setor
+import enumeradores.Sexo
+
 fun main() {
     println("Hello World!")
 
@@ -9,7 +14,7 @@ fun main() {
             idade = 34,
             cpf = 113200000000007,
             endereco = "Francisco Beltrao",
-            sexo = "Macho",
+            sexo = Sexo.MASCULINO,
             funcao = "encanador",
             experiencia = 10,
             habilidade = "Instalar caixa d'agua",
